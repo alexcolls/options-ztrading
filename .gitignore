@@ -1,0 +1,6 @@
+keys/
+*.key
+*.csv
+*.jsons
+__pycache__
+.DS_Store
