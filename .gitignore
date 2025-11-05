@@ -1,6 +1,39 @@
+# Keys (legacy)
 keys/
 *.key
+
+# Data outputs
 *.csv
 *.jsons
+data/
+
+# Python cache
 __pycache__
+
+# OS
 .DS_Store
+Thumbs.db
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.tox/
+
+# Poetry / packaging
+dist/
+*.egg-info/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+
+# Editors
+.vscode/
+.idea/
+
+# Environment
+.env
