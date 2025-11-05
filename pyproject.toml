@@ -3,7 +3,7 @@ name = "options-ztrading"
 version = "0.1.0"
 description = "Terminal-based options data fetcher from Polygon.io"
 authors = ["Your Name <your.email@example.com>"]
-readme = "readme.md"
+readme = "README.md"
 packages = [{include = "options_ztrading"}]
 
 [tool.poetry.dependencies]
