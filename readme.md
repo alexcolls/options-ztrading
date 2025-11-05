@@ -155,3 +155,30 @@ Options CSV columns include: ticker, contract_type, strike_price, expiration_dat
 - Respect Polygon.io rate limits; adjust MAX_WORKERS and retry settings accordingly.
 - Outputs are saved under `OUTPUT_DIR` (absolute path recommended).
 - This tool is for data collection and education only; do not use it to make trading decisions.
+
+---
+
+## 🧭 Roadmap / TODO
+
+Planned features and improvements:
+
+- Strategy modules: covered calls, cash-secured puts, vertical spreads
+- Basic backtesting harness and metrics (win rate, max drawdown, Sharpe)
+- Greeks and risk metrics enrichment (delta, gamma, theta, vega) when available
+- Filters: probability of profit, delta bands, IV rank/percentile, OI/liquidity
+- Caching layer and incremental updates to reduce API usage
+- Retry/backoff tuning with request budgets per minute
+- CSV schema versioning and Parquet export option
+- Scheduling with cron and JSON job profiles
+- Dockerfile and devcontainer
+- CI: lint, type-check, and basic tests on PRs
+
+Contributions and feature requests welcome—see Contributing.
+
+## 🤝 Contributing
+
+Please see CONTRIBUTING.md for how to set up your environment, coding standards, commit style (with emojis), and how to submit PRs.
+
+## 🗒️ Changelog
+
+See CHANGELOG.md for release notes. Current version: 0.1.0.
